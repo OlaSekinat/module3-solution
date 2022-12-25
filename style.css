@@ -1,0 +1,35 @@
+#header-nav {
+  background-color: #8c959f;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+  padding-top: 25px;
+}
+.menu {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.lorem-page {
+  background-color: #8c959f;
+}
+.chicken {
+  margin-bottom: 20px;
+}
+li {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  font-size: larger;
+  font-weight: 500;
+}
+
+button {
+  float: right;
+}
+/* MEDIA QUERY FOR MOBILE */
+@media (min-width: 767px) {
+  button {
+    visibility: hidden;
+  }
+}
